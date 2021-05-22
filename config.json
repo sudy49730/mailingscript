@@ -1,0 +1,21 @@
+{
+    "auth": {
+        "service": "gmail",
+        "auth": {
+            "user": "your-email-goes-here",
+            "pass": "your-password-goes-here"
+        }
+    },
+    "mailOptions": {
+        "from": "formatted-string",
+        "to": "receipient's email ids seperated by comma",
+        "subject": "your-subject",
+        "text": "your-mail-body",
+        "attachments": [
+            {
+                "filename": "filename",
+                "path": "path-to-file"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "mailingscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "mailing",
+    "script"
+  ],
+  "author": "Sudershan Singh",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.6.0"
+  }
+}
